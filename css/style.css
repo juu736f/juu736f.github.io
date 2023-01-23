@@ -1,0 +1,228 @@
+body {
+    background-color: black;
+    font-family: "Rubik";
+    text-align:center;
+}
+
+body h1, h2, h3, h4, h5, h6, marquee {
+    color:white;
+}
+
+body p {
+    opacity: 66%;
+    color:white;
+}
+
+div {
+    padding:5px;
+}
+
+.flag {
+    display:flex;
+    position:fixed;
+    right: 0;
+    width:60px;
+}
+
+.main {
+    background-color: #262626;
+}
+
+.main h1 {
+    display:block;
+    text-align: center;
+}
+
+.main p {
+    display:block;
+    text-align: center;
+}
+
+.main img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 50%;
+}
+
+.social {
+    padding: 15;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social img {
+    display: inline-block;
+    width: 0%;
+    border-radius: 0%;
+    padding-left: 10;
+    padding-right: 10;
+}
+
+.about {
+    padding-left: 20;
+    padding-right: 20;
+    flex-direction: column;
+}
+
+.about h1, h2, h3, h4, h5, h6, p {
+    display: block;
+}
+
+.projects {
+    padding: 15;
+    background-color: #262626
+}
+
+.projects img {
+    display: inline-block;
+    align-self: auto;
+    padding-right: 15;
+    padding-left:5;
+}
+.project {
+    display:inline-block;
+    display: flex;
+    align-items: center;
+}
+
+#info {
+    display:block;
+    width:100%;
+}
+
+#info h1, h2, h3, h4, h5, h6 { 
+    display: flex;
+    text-align:left;
+}
+
+#info p {
+    display:flex;
+    text-align:left;
+}
+
+.copyright p {
+    opacity:30%;
+}
+
+#randomImage img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height:300px;
+}
+
+.cardinfo {
+    width:50%
+}
+
+.card {
+    display:flex;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    background-color: 262626;
+    padding:20;
+}
+
+.card img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.card h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: white;
+}
+
+.card p {
+    text-align: center;
+    opacity: 75%;
+}
+
+.flag {
+    display:flex;
+    position:fixed;
+    right: 0;
+    width:60px;
+    padding-right:10px;
+    padding-top:2px;
+}
+
+.cvsocial img {
+    border-radius:0%;
+    width:25px;
+    height:25px;
+    display:inline-block;
+    margin:auto;
+}
+
+
+.socialabt {
+    display:inline-block;
+}
+
+.all {
+    display:flex;
+    height:auto;
+}
+
+.leftside {
+    width:50%;
+}
+
+.rightside {
+    width:50%;
+}
+
+.title h1, h2, h3, h4, h5, h6, p {
+    font-family:"Rubik";
+    color:white;
+}
+
+.topic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content {
+    display: block;
+    padding-left:20;
+    padding-right:20;
+    text-align:justify;
+}
+
+.postcard {
+    display:block;
+    background-color: #262626;
+    padding:20px;
+}
+
+.postcard h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+    color: white;
+}
+
+.postcard p {
+    text-align: center;
+}
+
+.postcard img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* div borders. debug */
+/* div {
+    border-color: red;
+    border-style: solid;
+} */
+

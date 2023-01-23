@@ -1,0 +1,30 @@
+body {
+    background-color:#000000;
+    text-align: center;
+}
+
+div {
+    padding:5px;
+}
+
+.title h1, h2, h3, h4, h5, h6, p {
+    font-family:"Rubik";
+    color:white;
+}
+
+
+
+
+
+.content {
+    display: block;
+    padding-left:20;
+    padding-right:20;
+    text-align:justify;
+}
+
+/* div {
+    border-color:red;
+    border-style:solid;
+}
+*/
